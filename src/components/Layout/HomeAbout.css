@@ -26,7 +26,8 @@
 .GoldenExtreme {
   font-weight: 900;
 }
-@media (max-width: 426px) {
+@media (max-width: 480px) {
+/* @media (max-width: 426px) { */
   .HomeAbout-container img {
     width: 18rem;
   }

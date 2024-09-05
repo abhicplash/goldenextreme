@@ -85,7 +85,7 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 432px) {
   .home-details img {
     display: none;
     /* margin-left: 0; */

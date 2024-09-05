@@ -37,8 +37,8 @@
 .card img {
   width: 10rem;
 }
-
-@media (max-width: 426px) {
+@media (max-width: 480px) {
+/* @media (max-width: 426px) { */
   .cardLists {
     padding: 2rem 0;
   }

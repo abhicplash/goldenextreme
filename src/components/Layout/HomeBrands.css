@@ -88,6 +88,7 @@
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 
 /* For larger tablets and above */
+
 @media (max-width: 1024px) {
   .brandcardList {
     width: 6rem; /* Adjust width of brand cards */
