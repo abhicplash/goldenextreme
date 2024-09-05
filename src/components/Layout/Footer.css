@@ -41,7 +41,7 @@
   .FooterContact h2 {
     display: none;
   }
-  .footerIcons .icon {
-    font-size: 55px;
+  .footerIcons .footicon {
+    font-size: 30px;
   }
 }

@@ -9,7 +9,6 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bgnav"></div>
       <div className="navbar-container">
         <img src={logo} alt="logo" />
         <ul className="list1">

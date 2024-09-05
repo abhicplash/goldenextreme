@@ -17,19 +17,19 @@ const Footer = () => {
         <h2>Contact</h2>
         <div>
           <div className="footerIcons">
-            <FaInstagram className="icon" />
+            <FaInstagram className="footicon" />
             <p>Golden Extreme</p>
           </div>
           <div className="footerIcons">
-            <FaWhatsapp  className="icon"/>
+            <FaWhatsapp  className="footicon"/>
             <p>Golden Extreme</p>
           </div>
           <div className="footerIcons">
-            <FaFacebook className="icon" />
+            <FaFacebook className="footicon" />
             <p>Golden Extreme</p>
           </div>
           <div className="footerIcons">
-            <FaEnvelope  className="icon"/>
+            <FaEnvelope  className="footicon"/>
             <p>Golden Extreme</p>
           </div>
         </div>
