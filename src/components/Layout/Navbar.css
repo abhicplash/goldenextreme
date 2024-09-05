@@ -1,0 +1,87 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #f4a80533; */
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  z-index: 50;
+  font-family: "Marko One", serif;
+  top: 0px;
+  /* background-color: rgba(0, 0, 0, 0.648); */
+  /* background-color: red; */
+  text-transform: capitalize;
+  color: #fff;
+}
+.list2 {
+  display: none;
+}
+.navbar-container .list1 {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+.navbar-container .list li {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar-container .list li {
+  color: #f5b207;
+}
+.navbar-container img {
+  /* border: 1px solid black; */
+  height: 50px;
+  /* display: none; */
+  visibility: hidden;
+}
+.burger {
+  display: none;
+}
+@media (max-width: 426px) {
+  .navbar-container {
+    background-color: rgba(0, 0, 0, 0.729);
+  }
+  .navbar-container .list1 {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .list2 {
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8.2rem 0;
+    display: flex;
+    /* border-bottom: 1px solid; */
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.916);
+    width: 100%;
+    font-size: 16px;
+  }
+  .icon {
+    display: none;
+  }
+  .NavMenuItem {
+    cursor: pointer;
+  }
+  .navbar-container img {
+    display: flex;
+    visibility: visible;
+  }
+  .NavMenuItem{
+    color: #fff;
+  }
+  .NavMenuItem:hover{
+    color: #f5b207;
+  }
+}

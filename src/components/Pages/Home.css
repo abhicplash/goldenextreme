@@ -1,0 +1,107 @@
+.home-conatiner {
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  background: url("https://img.freepik.com/free-photo/dark-storage-full-big-variety-new-tyres-busy-warehouse_613910-17116.jpg?t=st=1725499747~exp=1725503347~hmac=3e785a1e485936aba211c7ac4b98577e8b33a557fe3dedc1c2fcd4ce13ce54fc&w=740");
+  /* background: url("https://img.freepik.com/premium-photo/high-rack-with-customer-tires-warehouse-tire-dealer_73899-4847.jpg?w=900"); */
+  /* background: url("../../assets//Golden-Extreme/AI-Pics/main.jpg"); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  color: white;
+  /* justify-content: center; */
+  gap: 200px;
+  flex-direction: column;
+}
+.home-conatiner .home-details {
+  /* margin-left: 200px; */
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  padding: 20px;
+  /* justify-content: safe; */
+  /* background-color: #ffffff0a; */
+}
+.home-details-left {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.home-details img {
+  width: 300px;
+  margin-left: 60px;
+}
+.home-details-left h1 {
+  text-transform: uppercase;
+  width: 340px;
+  /* text */
+  font-size: 60px;
+
+  font-family: "Squada One", sans-serif;
+}
+.home-details-left p {
+  width: 350px;
+}
+/* .btncover {
+  position: relative;
+  width: 100%;
+} */
+.home-details-left  button {
+  padding: 10px 50px;
+  width: 13rem;
+  border: none;
+  outline: none;
+  /* color: white; */
+  color: #1e1f1e;
+  background-color: #f5b207;
+  text-transform: uppercase;
+  cursor: pointer;
+  animation-name: fromRight;
+  /* position: absolute;
+  top: 0;
+  left: 7%; */
+  /* left: 100px; */
+  /* position: absolute; */
+
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fromRight {
+  0% {
+    background-color: #1e1f1e;
+
+    width: 10rem;
+  }
+  /* 50%{
+    background-color: green;
+
+  } */
+  100% {
+    background-color: #f5b207;
+  }
+}
+
+@media (max-width: 426px) {
+  .home-details img {
+    display: none;
+    /* margin-left: 0; */
+  }
+  .home-details-left {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-details-left h1 {
+    width: 100%;
+  }
+  .home-details-left p {
+    width: 100%;
+  }
+}

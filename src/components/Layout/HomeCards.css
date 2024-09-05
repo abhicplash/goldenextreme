@@ -1,0 +1,45 @@
+.HomeCards-container {
+  width: 100%;
+  color: #f5b207;
+  padding: 30px 0;
+  background-color: #000000;
+}
+.HomeCards-container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.cardLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 10rem;
+  text-transform: capitalize;
+}
+.card {
+  width: 15rem;
+  height: 20rem;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1f1e;
+}
+.card:hover {
+  background-color: #f5b207;
+  color: #1e1f1e;
+  cursor: pointer;
+  transition-duration: 800ms;
+}
+.card img {
+  width: 10rem;
+}
+
+@media (max-width: 426px) {
+  .cardLists {
+    padding: 2rem 0;
+  }
+}
