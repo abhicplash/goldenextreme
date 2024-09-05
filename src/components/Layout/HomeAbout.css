@@ -1,0 +1,45 @@
+.HomeAbout-container {
+  width: 100%;
+  background-color: #f5b207;
+  color: #1e1f1e;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5rem; */
+}
+.HomeAbout-container img {
+  width: 40rem;
+}
+.aboutDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.aboutDetails  p {
+  width: 30rem;
+  text-align: justify;
+}
+.HomeAbout-container h1 {
+  color: #000;
+}
+.GoldenExtreme {
+  font-weight: 900;
+}
+@media (max-width: 426px) {
+  .HomeAbout-container img {
+    width: 18rem;
+  }
+  .HomeAbout-container {
+    flex-direction: column;
+    text-align: center;
+
+    align-items: center;
+  }
+
+  .aboutDetails p {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 16rem;
+  }
+}

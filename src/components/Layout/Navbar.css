@@ -9,6 +9,7 @@
   z-index: 50;
   font-family: "Marko One", serif;
   top: 0px;
+  
   /* background-color: rgba(0, 0, 0, 0.648); */
   /* background-color: red; */
   text-transform: capitalize;
@@ -43,7 +44,7 @@
 }
 @media (max-width: 426px) {
   .navbar-container {
-    background-color: rgba(0, 0, 0, 0.729);
+    background-color: rgba(0, 0, 0, 0.916);
   }
   .navbar-container .list1 {
     display: none;
@@ -77,6 +78,8 @@
   .navbar-container img {
     display: flex;
     visibility: visible;
+    width: 6rem;
+    height: 4rem;
   }
   .NavMenuItem{
     color: #fff;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from "../../assets/logo/white-removebg-preview.png";
+import logo from "../../assets/logo/white.png";
 
 const Navbar = () => {
   const [view, setView] = useState(false);

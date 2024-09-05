@@ -20,11 +20,13 @@
   gap: 60px;
   flex-direction: column;
   padding: 20px;
+  /* justify-content: center;
+  align-items: center; */
   /* justify-content: safe; */
   /* background-color: #ffffff0a; */
 }
 .home-details-left {
-  margin-left: 60px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
   gap: 20px;

@@ -6,7 +6,7 @@
 }
 .HomeCards-container h1 {
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 10px 0;
 }
 .cardLists {
@@ -41,5 +41,9 @@
 @media (max-width: 426px) {
   .cardLists {
     padding: 2rem 0;
+  }
+  .card{
+    width: 15rem;
+    height: 15rem;
   }
 }

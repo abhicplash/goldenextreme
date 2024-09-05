@@ -1,8 +1,11 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import "./Home.css";
-import logo from "../../assets/logo/white-removebg-preview.png";
+import logo from "../../assets/logo/white.png";
+
 import HomeCards from "../Layout/HomeCards";
+import HomeAbout from "../Layout/HomeAbout";
+import HomeBrands from "../Layout/HomeBrands";
 
 const Home = () => {
   return (
@@ -24,6 +27,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <HomeBrands />
+      <HomeAbout />
       <HomeCards />
     </Layout>
   );

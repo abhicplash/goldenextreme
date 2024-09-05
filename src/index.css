@@ -4,5 +4,6 @@
 * {
   margin: 0;
   /* background-color: #000000; */
+  overflow-x: hidden;
   font-family: "Marko One", serif;
 }

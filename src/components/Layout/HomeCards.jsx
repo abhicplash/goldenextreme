@@ -1,7 +1,5 @@
 import React from "react";
 import "./HomeCards.css";
-import tyre1 from "../../assets/Golden-Extreme/AI-Pics/1 (1).jpeg";
-import { GiFlatTire } from "react-icons/gi";
 import { Arraylist } from "../../utils/data/categories";
 
 const HomeCards = () => {

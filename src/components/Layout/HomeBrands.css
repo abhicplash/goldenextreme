@@ -1,0 +1,135 @@
+/* .homeBrands-container {
+  background-color: #000;
+  color: #f5b207;
+  overflow: hidden;
+  padding: 3rem 0;
+}
+.homeBrands-container h1 {
+  text-align: center;
+}
+.brands-cover {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px 0;
+  animation: slide 15s linear infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.brandcardList {
+  padding: 1rem 2rem;
+  width: 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.brandcardList img {
+  width: 6rem;
+  height: 3rem;
+}
+ */
+.homeBrands-container {
+  background-color: #000;
+  color: #f5b207;
+  overflow: hidden; /* Hide overflow to keep the sliding content within the viewport */
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.homeBrands-container h1 {
+  text-align: center;
+  font-size: 2rem; /* Responsive font size */
+}
+
+.brands-cover {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  padding-top: 2rem;
+  animation: slide 30s linear infinite;
+}
+
+.brandcardList {
+  padding: 1rem;
+  width: 13rem; /* Fixed width for brand cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.brandcardList img {
+  width: 6rem;
+  height: 3rem;
+}
+
+/* Keyframes for continuous sliding */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+
+/* For larger tablets and above */
+@media (max-width: 1024px) {
+  .brandcardList {
+    width: 6rem; /* Adjust width of brand cards */
+  }
+
+  .brandcardList img {
+    width: 4.5rem;
+    height: 2.25rem; /* Adjust image size */
+  }
+}
+
+/* For mobile screens (below 768px) */
+@media (max-width: 768px) {
+  .brands-cover {
+    gap: 1rem; /* Reduce gap between cards */
+  }
+
+  .brandcardList {
+    width: 5rem; /* Reduce card size */
+  }
+
+  .brandcardList img {
+    width: 4rem;
+    height: 2rem; /* Smaller image size */
+  }
+}
+
+/* For very small mobile screens (below 480px) */
+@media (max-width: 480px) {
+  /* .homeBrands-container h1 {
+  } */
+
+  .brands-cover {
+    gap: 0.5rem; /* Tighten gap between cards */
+  }
+
+  .brandcardList {
+    width: 10rem; /* Further reduce card size */
+  }
+
+  .brandcardList img {
+    width: 6rem;
+    height: 3rem; /* Smallest image size */
+  }
+}
