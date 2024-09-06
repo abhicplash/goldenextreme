@@ -29,6 +29,7 @@
   background-color: #1e1f1e;
 }
 .card:hover {
+  /* background-color: green; */
   background-color: #f5b207;
   color: #1e1f1e;
   cursor: pointer;

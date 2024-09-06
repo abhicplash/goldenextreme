@@ -11,7 +11,9 @@ const Footer = () => {
     <div className="Footer-main">
       <div className="footerFirst">
         <img src={logo} alt="" />
-        <h2>DRIVE WITH <br /> CONFIDENCE</h2>
+        <h2>
+          DRIVE WITH <br /> CONFIDENCE
+        </h2>
       </div>
       <div className="FooterContact">
         <h2>Contact</h2>
@@ -21,7 +23,7 @@ const Footer = () => {
             <p>Golden Extreme</p>
           </div>
           <div className="footerIcons">
-            <FaWhatsapp  className="footicon"/>
+            <FaWhatsapp className="footicon" />
             <p>Golden Extreme</p>
           </div>
           <div className="footerIcons">
@@ -29,10 +31,17 @@ const Footer = () => {
             <p>Golden Extreme</p>
           </div>
           <div className="footerIcons">
-            <FaEnvelope  className="footicon"/>
+            <FaEnvelope className="footicon" />
             <p>Golden Extreme</p>
           </div>
         </div>
+      </div>
+      <div className="ShortCutLinks">
+        <a href="https://wa.me/+919745861800/?text=let me know more about *Abina TA*">
+          <FaWhatsapp />
+        </a>
+        {/* <FaWhatsapp />
+        <FaWhatsapp /> */}
       </div>
     </div>
   );

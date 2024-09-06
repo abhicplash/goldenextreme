@@ -3,6 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../../assets/logo/white.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [view, setView] = useState(false);
@@ -10,19 +11,34 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar-container">
-        <img src={logo} alt="logo" />
+        
+        <Link to={"/"}>
+          <img src={logo} alt="logo" />
+        </Link>
         <ul className="list1">
-          <li>home</li>
-          <li>about us</li>
-          <li>Services</li>
-          <li>contact us</li>
+          <Link to={"/"}>
+            <li>home</li>
+          </Link>
+          <Link>
+            <li>about us</li>
+          </Link>
+          <Link>
+            <li>Services</li>
+          </Link>
+          <Link to={"/contact"}>
+            <li>contact us</li>
+          </Link>
         </ul>
         {view ? (
           <div className="list2">
-            <div className="NavMenuItem">home</div>
+            <Link to={"/"}>
+              <div className="NavMenuItem">home</div>
+            </Link>
             <div className="NavMenuItem">about us</div>
             <div className="NavMenuItem">Services</div>
-            <div className="NavMenuItem">contact us</div>
+            <Link to={"/contact"}>
+              <div className="NavMenuItem">contact us</div>
+            </Link>
           </div>
         ) : null}
         <GiHamburgerMenu

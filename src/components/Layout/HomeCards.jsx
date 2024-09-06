@@ -7,8 +7,8 @@ const HomeCards = () => {
     <div className="HomeCards-container">
       <h1>Categories</h1>
       <div className="cardLists">
-        {Arraylist.map((list) => (
-          <div className="card">
+        {Arraylist.map((list,index) => (
+          <div className="card" key={index}>
             <img src={list.image} alt="" />
             <h4>{list.name}</h4>
           </div>
