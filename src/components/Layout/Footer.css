@@ -63,7 +63,7 @@
     position: fixed;
     bottom: 5px;
     right: 5px;
-    border: 1px solid white;
+    border: 1px solid rgb(150, 150, 150);
   }
   .ShortCutLinks a {
     color: #f5b207;
