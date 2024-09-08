@@ -5,22 +5,32 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="Footer-main">
       <div className="footerFirst">
         <img src={logo} alt="" />
-        <h2>
+        <h1  className="drivefooter">
           DRIVE WITH <br /> CONFIDENCE
-        </h2>
+        </h1>
       </div>
       <div className="QuickLinks">
         <h2>Quick Links</h2>
-        <h4>Home</h4>
-        <h4>About US</h4>
-        <h4>Services</h4>
-        <h4>Contact Us</h4>
+        {/* <br /> */}
+        <Link to={"/"}>
+          <h4>Home</h4>
+        </Link>
+        <Link to={"/about"}>
+          <h4>About US</h4>
+        </Link>
+        <Link to={"/service"}>
+          <h4>Services</h4>
+        </Link>
+        <Link to={"/contact"}>
+          <h4>Contact Us</h4>
+        </Link>
       </div>
       <div className="FooterContact">
         <h2>Follow us on</h2>

@@ -4,6 +4,7 @@ import Home from "./components/Pages/Home";
 import Contact from "./components/Pages/Contact";
 import PreLoader from "./components/Layout/PreLoader";
 import About from "./components/Pages/About";
+import Services from "./components/Pages/Services";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/About" element={<About />} />
+            <Route path="/service" element={<Services />} />
           </Routes>
         </BrowserRouter>
       )}
