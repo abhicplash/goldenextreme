@@ -43,7 +43,7 @@
   width: 150%;
   height: 10rem;
   background: linear-gradient(90deg, transparent 0%, #fff 5%, #fff 100%);
-  animation: animate 5s linear forwards;
+  animation: animate 3s linear forwards;
 }
 @keyframes animate {
   0% {
