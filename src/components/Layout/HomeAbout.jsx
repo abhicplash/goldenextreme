@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomeAbout.css";
-import about from "../../assets/Golden-Extreme/About/aboutImage.png";
 
-const HomeAbout = () => {
+
+const HomeAbout = ({image}) => {
   return (
     <div className="HomeAbout-container">
-      <img src={about} alt="" />
+      <img src={image} alt="" />
       <div className="aboutDetails">
         <h1>About us</h1>
         <p>

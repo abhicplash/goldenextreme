@@ -15,24 +15,36 @@ const Footer = () => {
           DRIVE WITH <br /> CONFIDENCE
         </h2>
       </div>
+      <div className="QuickLinks">
+        <h2>Quick Links</h2>
+        <h4>Home</h4>
+        <h4>About US</h4>
+        <h4>Services</h4>
+        <h4>Contact Us</h4>
+      </div>
       <div className="FooterContact">
-        <h2>Contact</h2>
-        <div>
-          <div className="footerIcons">
-            <FaInstagram className="footicon" />
-            <p>Golden Extreme</p>
-          </div>
-          <div className="footerIcons">
+        <h2>Follow us on</h2>
+        {/* <h3></h3> */}
+        <div className="footerIcons">
+          <div className="iconList">
+            {/* <div className="footerIcons"> */}
+            <a href="https://www.instagram.com/">
+              <FaInstagram className="footicon" />
+            </a>
+            {/* <p>Golden Extreme</p> */}
+            {/* </div> */}
+            {/* <div className="footerIcons"> */}
             <FaWhatsapp className="footicon" />
-            <p>Golden Extreme</p>
-          </div>
-          <div className="footerIcons">
+            {/* <p>Golden Extreme</p> */}
+            {/* </div> */}
+            {/* <div className="footerIcons"> */}
             <FaFacebook className="footicon" />
-            <p>Golden Extreme</p>
-          </div>
-          <div className="footerIcons">
+            {/* <p>Golden Extreme</p> */}
+            {/* </div> */}
+            {/* <div className="footerIcons"> */}
             <FaEnvelope className="footicon" />
-            <p>Golden Extreme</p>
+            {/* <p>Golden Extreme</p> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

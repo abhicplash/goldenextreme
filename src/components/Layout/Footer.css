@@ -5,7 +5,7 @@
   /* height: 100vh; */
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  
   padding: 4rem 0;
   gap: 3rem;
 }
@@ -26,11 +26,20 @@
 }
 .footerIcons {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.footerIcons .icon {
-  font-size: 25px;
+.iconList {
+  display: flex;
+  gap: 0.5rem;
+}
+.iconList a {
+  text-decoration: none;
+  color: #1e1f1e;
+}
+.footicon {
+  font-size: 30px;
 }
 
 .ShortCutLinks {
@@ -43,11 +52,13 @@
     /* height: 100vh; */
     padding: 1rem 0;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  .FooterContact h2 {
+  /* .FooterContact h2 {
     display: none;
-  }
-  .footerIcons .footicon {
+  } */
+  .footicon {
     font-size: 30px;
   }
   .ShortCutLinks {

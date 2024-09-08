@@ -37,6 +37,7 @@
 }
 .contactIcon {
   font-size: 25px;
+  color: #f5b207;
 }
 .contact-left {
   display: flex;
@@ -49,7 +50,7 @@
 .contact-address {
   display: flex;
   align-items: start;
-
+  color: #fff;
   gap: 1rem;
 }
 .contact-details {
@@ -60,6 +61,7 @@
 }
 .contactInfo {
   font-weight: 100;
+  color: #fff;
 }
 .contact-form form {
   display: flex;
@@ -99,9 +101,9 @@ form button {
 form button:hover {
   background-color: #dfa104;
 }
-.contactMapiframe{
-    width: 80%;
-    height: 40rem;
+.contactMapiframe {
+  width: 80%;
+  height: 40rem;
 }
 .contactMap {
   display: flex;

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Contact from "./components/Pages/Contact";
 import PreLoader from "./components/Layout/PreLoader";
+import About from "./components/Pages/About";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,6 +25,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/About" element={<About />} />
           </Routes>
         </BrowserRouter>
       )}

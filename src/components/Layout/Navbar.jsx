@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to={"/"}>
             <li>home</li>
           </Link>
-          <Link>
+          <Link to={"/About"}>
             <li>about us</li>
           </Link>
           <Link>
@@ -34,7 +34,9 @@ const Navbar = () => {
             <Link to={"/"}>
               <div className="NavMenuItem">home</div>
             </Link>
-            <div className="NavMenuItem">about us</div>
+            <Link to={"/about"}>
+              <div className="NavMenuItem">about us</div>
+            </Link>
             <div className="NavMenuItem">Services</div>
             <Link to={"/contact"}>
               <div className="NavMenuItem">contact us</div>
