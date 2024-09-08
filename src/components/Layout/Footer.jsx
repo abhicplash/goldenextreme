@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="Footer-main">
       <div className="footerFirst">
         <img src={logo} alt="" />
-        <h1  className="drivefooter">
+        <h1 className="drivefooter">
           DRIVE WITH <br /> CONFIDENCE
         </h1>
       </div>
