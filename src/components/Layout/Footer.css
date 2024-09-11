@@ -38,6 +38,7 @@
 .iconList a {
   text-decoration: none;
   color: #1e1f1e;
+  cursor: pointer;
 }
 .footicon {
   font-size: 30px;

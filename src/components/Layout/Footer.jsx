@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="footerIcons">
           <div className="iconList">
             {/* <div className="footerIcons"> */}
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/"  target="_blank">
               <FaInstagram className="footicon" />
             </a>
             {/* <p>Golden Extreme</p> */}
@@ -48,18 +48,22 @@ const Footer = () => {
             {/* <p>Golden Extreme</p> */}
             {/* </div> */}
             {/* <div className="footerIcons"> */}
-            <FaFacebook className="footicon" />
+            <a href="https://www.facebook.com/share/D8jPBFsDeLo2aAPG/?mibextid=qi2Omg"  target="_blank">
+              <FaFacebook className="footicon" />
+            </a>
             {/* <p>Golden Extreme</p> */}
             {/* </div> */}
             {/* <div className="footerIcons"> */}
-            <FaEnvelope className="footicon" />
+            <a href="mailto:info@goldenextreme.com" target="_blank">
+              <FaEnvelope className="footicon" />
+            </a>
             {/* <p>Golden Extreme</p> */}
             {/* </div> */}
           </div>
         </div>
       </div>
       <div className="ShortCutLinks">
-        <a href="https://wa.me/+919745861800/?text=let me know more about *Abina TA*">
+        <a href="https://wa.me/+971504868799/?text=let me know more about *Abina TA*">
           <FaWhatsapp />
         </a>
         {/* <FaWhatsapp />
