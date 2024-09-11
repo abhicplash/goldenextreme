@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="ShortCutLinks">
-        <a href="https://wa.me/+971504868799/?text=let me know more about *Abina TA*">
+        <a href="https://wa.me/+971504868799/?text=let me know more about *Golden Tyres*">
           <FaWhatsapp />
         </a>
         {/* <FaWhatsapp />
