@@ -38,17 +38,22 @@ const Footer = () => {
         <div className="footerIcons">
           <div className="iconList">
             {/* <div className="footerIcons"> */}
-            <a href="https://www.instagram.com/"  target="_blank">
+            <a href="https://www.instagram.com/" target="_blank">
               <FaInstagram className="footicon" />
             </a>
             {/* <p>Golden Extreme</p> */}
             {/* </div> */}
             {/* <div className="footerIcons"> */}
-            <FaWhatsapp className="footicon" />
+            <a href="https://wa.me/+971504868799/?text=let me know more about *Golden Extreme Trading*">
+              <FaWhatsapp className="footicon" />
+            </a>
             {/* <p>Golden Extreme</p> */}
             {/* </div> */}
             {/* <div className="footerIcons"> */}
-            <a href="https://www.facebook.com/share/D8jPBFsDeLo2aAPG/?mibextid=qi2Omg"  target="_blank">
+            <a
+              href="https://www.facebook.com/share/D8jPBFsDeLo2aAPG/?mibextid=qi2Omg"
+              target="_blank"
+            >
               <FaFacebook className="footicon" />
             </a>
             {/* <p>Golden Extreme</p> */}
@@ -63,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="ShortCutLinks">
-        <a href="https://wa.me/+971504868799/?text=let me know more about *Golden Tyres*">
+        <a href="https://wa.me/+971504868799/?text=let me know more about *Golden Extreme Trading*">
           <FaWhatsapp />
         </a>
         {/* <FaWhatsapp />
